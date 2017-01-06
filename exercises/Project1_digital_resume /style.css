@@ -5,9 +5,10 @@ h1, p.one{
 body{
 	background-image: url("img/02.jpg");
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: 68% 50%;
 	background-size: 874px 677px;
 }
+
 
 
 li{
@@ -41,7 +42,7 @@ img.displaced{
 }
 div.column1{
 	height: 200px;
-	width: 300px;
+	width: 340px;
 	background-color: rgb(246, 249, 216); 
 	text-align: center;
 	border-width:thick;
@@ -50,10 +51,14 @@ div.column1{
 	-moz-box-shadow: -10px -10px #DEAA8B;
 	-webkit-box-shadow: -10px -10px #DEAA8B;
 	box-shadow: -10px -10px #DEAA8B;
+	position: relative;
+	top:130px;
+	left: 250px;
 }
+
 div.column2{
-	height: 200px;
-	width: 300px;
+	height: 260px;
+	width: 330px;
 	background-color: rgb(246, 249, 216); 
 	text-align: center;
 	border-width:thick;
@@ -62,7 +67,13 @@ div.column2{
 	-moz-box-shadow: -10px -10px #DEAA8B;
 	-webkit-box-shadow: -10px -10px #DEAA8B;
 	box-shadow: -10px -10px #DEAA8B;
-	float: right;
+	position: relative;
+	top: -110px;
+	left: 690px;
+}
+
+div.column1, div.column2{
+	margin: 30px;
 }
 
 
