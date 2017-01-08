@@ -16,7 +16,7 @@ li{
 	padding-right: 20px
 }
 p{
-	font-size: 82%;
+	font-size: 85%;
 }
 
 ul
@@ -57,7 +57,8 @@ div.column1{
 }
 
 div.column2{
-	height: 260px;
+	font-size: 87%;
+	height: 300px;
 	width: 330px;
 	background-color: rgb(246, 249, 216); 
 	text-align: center;
@@ -71,6 +72,7 @@ div.column2{
 	top: -110px;
 	left: 690px;
 }
+
 
 div.column1, div.column2{
 	margin: 30px;
