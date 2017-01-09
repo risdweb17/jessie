@@ -1,0 +1,31 @@
+body{
+	font-family: 'cursive', sans-serif;
+}
+
+
+p,li,h1,body{
+	background-color: rgb(240,210,200)
+}
+
+div.header{
+	font-size: 85%;
+	height: 200px;
+	width: 340px; 
+	text-align: center;
+	border-width:thick;
+	border-style: thick;
+	border-color: rgb(254, 181, 136);
+	-moz-box-shadow: -10px -10px #DEAA8B;
+	-webkit-box-shadow: -10px -10px #DEAA8B;
+	box-shadow: -10px -10px #DEAA8B;
+	position: relative;
+	top: 1.2em;
+	right: -36em;
+	padding: 30px 30px 30px 30px;
+}
+
+div.column1, div.column2{
+	text-align: center;
+    margin: 1.3em;
+    line-height: 1.5em;
+}
