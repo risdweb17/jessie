@@ -3,7 +3,7 @@ body{
 }
 
 
-p,li,h1,body{
+body{
 	background-color: rgb(240,210,200)
 }
 
@@ -11,8 +11,9 @@ div.header{
 	font-size: 85%;
 	height: 200px;
 	width: 340px; 
+	background-color: white;
 	text-align: center;
-	border-width:thick;
+	border-width: thick;
 	border-style: thick;
 	border-color: rgb(254, 181, 136);
 	-moz-box-shadow: -10px -10px #DEAA8B;
@@ -20,12 +21,59 @@ div.header{
 	box-shadow: -10px -10px #DEAA8B;
 	position: relative;
 	top: 1.2em;
-	right: -36em;
+	right: -20em;
 	padding: 30px 30px 30px 30px;
+}
+
+
+
+img{
+	height: 30%;
+	width: 23%;
+	position: absolute;
+	margin-left: 750px;
+	margin-top: -230px;
+	border-width: thick;
+	border-style: thick;
+	border-color: rgb(254, 181, 136);
+	-moz-box-shadow: -10px -10px #DEAA8B;
+	-webkit-box-shadow: -10px -10px #DEAA8B;
+	box-shadow: -10px -10px #DEAA8B;
 }
 
 div.column1, div.column2{
 	text-align: center;
-    margin: 1.3em;
+    margin: 0.7em;
     line-height: 1.5em;
+    float: left;
+    background-color: white;
+}
+
+div.column1{
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 100px;
+	border-width: thick;
+	border-style: thick;
+	border-color: rgb(254, 181, 136);
+	-moz-box-shadow: -10px -10px #DEAA8B;
+	-webkit-box-shadow: -10px -10px #DEAA8B;
+	box-shadow: -10px -10px #DEAA8B;
+	padding: 30px 30px 30px 30px;
+	border: 30px 30px 30px 30px;
+}
+
+div.column2{
+	height: 400px;
+	width: 600px;
+	position: absolute; 
+	margin-left: 750px;
+	margin-top: 100px;
+	border-width: thick;
+	border-style: thick;
+	border-color: rgb(254, 181, 136);
+	-moz-box-shadow: -10px -10px #DEAA8B;
+	-webkit-box-shadow: -10px -10px #DEAA8B;
+	box-shadow: -10px -10px #DEAA8B;
+	padding: 30px 30px 30px 30px;
 }

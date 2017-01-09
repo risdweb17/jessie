@@ -43,7 +43,7 @@ img.displaced{
 div.column1{
 	height: 200px;
 	width: 340px;
-	background-color: rgb(246, 249, 216); 
+	background-color: rgba(246, 249, 216, 0.7); 
 	text-align: center;
 	border-width:thick;
 	border-style: dotted;
@@ -60,7 +60,7 @@ div.column2{
 	font-size: 87%;
 	height: 300px;
 	width: 330px;
-	background-color: rgb(246, 249, 216); 
+	background-color: rgba(246, 249, 216,0.7); 
 	text-align: center;
 	border-width:thick;
 	border-style: dotted;
