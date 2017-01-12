@@ -1,0 +1,105 @@
+*{
+     box-sizing: border-box;
+}
+
+
+
+div.container{
+    overflow: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+	height: 100em;
+	margin: 1.4em;
+	background-color: rgb(243, 235, 230);
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+
+div.header{
+	padding: 0.4em 0em;
+    min-height: 100px;
+    max-height: 300px;
+	background-color: rgb(73, 80, 191);
+}
+
+h1{
+	color: white;
+	text-indent: 10%;
+	float: left;
+}
+
+
+.dropbtn {
+	margin-left: 5em;
+    background-color:rgb(16, 24, 149);
+    color: white;
+    padding: 3px;
+    font-size: 80%;
+    min-width: 147px;
+    min-height:40px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/*color change when hovering on direction */
+.dropdown:hover .dropbtn {
+    background-color: rgb(109, 114, 182);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* mouse hover on links color change */
+.dropdown-content a:hover {background-color:rgb(109, 114, 182);}
+
+.dropdown-content {
+    z-index: 20;
+    display: none;
+    position: absolute;
+    margin-left: 10em;
+    background-color: rgb(255, 255, 255);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* altering the appeareance of links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+div.column1, div.column2, div.column3{
+    display: block;
+    float:left;
+    z-index: 10;
+    border-radius: 10px;
+    float: right;
+    margin: 3em 3em;
+    position: relative;
+    
+	min-width: 70em;
+    min-height: 40em;
+    background-color:rgb(255, 255, 255) ;
+}
+
+div.subcol{
+    float: left;
+    position: relative;
+    border-radius: 3px;
+    margin: 3em 3em;
+    min-height: 500px;
+    min-width: 300px;
+    background-color: rgb(109, 114, 182);
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+	.column1, .column2, .column3  { margin: 1% 0 1% 0%;}
+}
