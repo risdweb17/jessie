@@ -1,0 +1,32 @@
+.block1{
+	 display: block;
+     background-color:rgb(165, 223, 190);
+     min-height: 500px;
+     min-width: 500px;
+     border-radius: 50%;
+     border-style: dotted;
+     border-width:50px;
+     border-color: rgb(222, 251, 234  );
+     position: absolute;
+     top:10%;
+     left:30%;
+     z-index: 10;
+     }
+
+body{
+	background-color:rgb(109, 182, 144);
+}
+
+.under {
+  position: absolute;
+  top:23%;
+  left:30%;
+  display: block;
+  min-height: 570px;
+  min-width: 570px;
+  background-color:rgb(118, 151, 132);
+  border-top-left-radius: 40%;
+  border-top-right-radius: 27%;
+  border-bottom-left-radius: 50% ;
+  border-bottom-right-radius: 50%;
+}
