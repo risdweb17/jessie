@@ -13,37 +13,45 @@ body{
 .container{
 	overflow: auto;
 	text-align: center;
-	margin: auto;
-	display: block;
-	flex-direction: column;
-	flex-wrap: wrap;
 }
 
-img.displaced{
-    position: relative;
-    margin: auto;
+div.portfolio   p{
+    visibility: hidden ;
+    display: block;
+	text-align: center ;
+	background-color: rgba(255,255,255, 0.7);
+	padding: 3%;
+
+}
+
+div.portfolio:hover p{
+    visibility: visible;
+	
+}
+
+.column1, .column2 {
+	padding: 2%;
 }
 
 div.column1{
 	overflow: auto
-	height: 200px;
-	width: 340px;
-	background-color: rgba(246, 249, 216, 0.7); 
+	height: 30%;
+	max-width: 20%;
+	background-color: rgba(255,255,255, 0.7); 
 	text-align: center;
 	float: left;
-    margin-right: 3%;
-    margin-left: 25%;
+	margin-right: 3%;
+	margin-left: 26%;
 }
 
 div.column2{
 	overflow:auto;
 	font-size: 87%;
-	height: 300px;
-	width: 330px;
-	background-color: rgba(246, 249, 216,0.7); 
+	height: 30%;
+	max-width: 30%;
+	background-color: rgba(255,255,255, 0.7); 
 	text-align: center;
 	float: left;
-
 	}
 
 
