@@ -30,15 +30,9 @@ div.column1{
 	width: 340px;
 	background-color: rgba(246, 249, 216, 0.7); 
 	text-align: center;
-	border-width: 3px;
-	border-style: solid;
-	border-color: rgb(254, 181, 136);
-	-moz-box-shadow: -10px -10px #DEAA8B;
-	-webkit-box-shadow: -10px -10px #DEAA8B;
-	box-shadow: -10px -10px #DEAA8B;
-	 float: right;
-    position: relative;
-  left: -50%;
+	float: left;
+    margin-right: 3%;
+    margin-left: 25%;
 }
 
 div.column2{
@@ -48,21 +42,13 @@ div.column2{
 	width: 330px;
 	background-color: rgba(246, 249, 216,0.7); 
 	text-align: center;
-	border-width: 3px;
-	border-style: solid;
-	border-color: rgb(254, 181, 136);
-	-moz-box-shadow: -10px -10px #DEAA8B;
-	-webkit-box-shadow: -10px -10px #DEAA8B;
-	box-shadow: -10px -10px #DEAA8B;
-	position: relative;
 	float: left;
-	top: -20%;
-	right: -50% ;
+
 	}
 
 
 div.column1, div.column2{
-	margin: 30px;
+	
 }
 
 div.footer{
