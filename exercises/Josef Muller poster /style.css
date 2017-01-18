@@ -11,6 +11,8 @@
      min-width: 70px;
      border-radius: 50%;
 
+
+
 }
 
 .eye2{
@@ -108,7 +110,7 @@ body{
   border-bottom-right-radius: 50%;
 }
 
-/*the pink crone*/
+
 .crone{
   z-index: 20;
   position: absolute;
@@ -158,8 +160,72 @@ body{
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
 transform: rotate(-30deg);
+}
 
+
+div.eye1, div.eye3, div.eye2, div.eye4{
+  animation-name: moving;
+  animation: moving 3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes moving{
+    from {top: 23%;}
+    to {top: 24%;
+    transform: translate(30px, 50px);
+    }
 
 }
+
+div.block1, div.under, div.crone2, div.pacman {
+animation-name: bounce;
+animation: bounce 3s infinite;
+animation- direction:alternate ;
+
+}
+
+@keyframes bounce{
+from, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+  }
+  40% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -3%, 0);
+  }
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -15%, 0);
+  }
+  90% {
+    transform: translate3d(0,-4%,0);
+  }
+}
+
+div.strip{
+  animation: stretch_move 3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes stretch_move{
+   from, 20%, to {top: 40%;
+     min-width:120px;}
+
+    70% {top: 45%;
+      min-width: :100px;
+      border-radius: 36%;}
+}
+
+div.crone{
+  animation: stretch 3s infinite;
+  animation-direction: alternate ;
+}
+
+@keyframes stretch{
+  from,20%, to{border-top-width:200px;}
+  70%{border-top-width:235px;}
+}
+
+
 
 
