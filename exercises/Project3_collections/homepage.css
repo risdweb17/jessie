@@ -140,6 +140,16 @@
     	filter: grayscale(20%);
     }
 
+
+   div.narrative:hover {
+    transform: scale(1.02);
+}
+
+      div.bestiary:hover {
+    transform: scale(1.02);
+}
+
+
     .narrative h1{
     	text-shadow: 4px 4px 6px #000;
     	font-size: 400%;
