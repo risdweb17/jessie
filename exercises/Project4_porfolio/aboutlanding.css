@@ -11,7 +11,7 @@
      	text-shadow: 0.5px 0.5px rgba(158, 158, 158,0.5);
      }
      
-     li{
+     div.navigation ul li{
      	font-size: 20px;
      }
     
@@ -54,7 +54,7 @@
 
      div.navigation ul li a:hover{
       font-size: 18px; 
-        color: white;
+      color: white;
      }
 
     div.coverimage{
@@ -118,8 +118,6 @@
 }
 
 .timeline ul li div {
-  font-family: 'Hind Vadodara', sans-serif;
-  font-size: 17px;
   position: relative;
   width: 400px;
   padding: 15px;
@@ -155,13 +153,31 @@
   left: 26px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
   .timeline ul li div {
-    width: 220px;
+    width: 60px;
   }
   .timeline ul li:nth-child(even) div {
-    left: -268px; 
+    left: -108px; 
   }
+  *{
+    line-height: 110%;
+    font-size: 8px;
+  }
+
 }
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    *{
+    line-height: 120%;
+    font-size: 10px;
+  }
+
+}
+
 
    
