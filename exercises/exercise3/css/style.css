@@ -16,8 +16,6 @@ div.header{
 	border-width: thick;
 	border-style: thick;
 	border-color: rgb(254, 181, 136);
-	-moz-box-shadow: -10px -10px #DEAA8B;
-	-webkit-box-shadow: -10px -10px #DEAA8B;
 	box-shadow: -10px -10px #DEAA8B;
 	position: relative;
 	top: 1.2em;
@@ -36,8 +34,6 @@ img{
 	border-width: thick;
 	border-style: thick;
 	border-color: rgb(254, 181, 136);
-	-moz-box-shadow: -10px -10px #DEAA8B;
-	-webkit-box-shadow: -10px -10px #DEAA8B;
 	box-shadow: -10px -10px #DEAA8B;
 }
 
@@ -56,8 +52,6 @@ div.column1{
 	border-width: thick;
 	border-style: thick;
 	border-color: rgb(254, 181, 136);
-	-moz-box-shadow: -10px -10px #DEAA8B;
-	-webkit-box-shadow: -10px -10px #DEAA8B;
 	box-shadow: -10px -10px #DEAA8B;
 	padding: 30px 30px 30px 30px;
 	border: 30px 30px 30px 30px;
@@ -72,8 +66,6 @@ div.column2{
 	border-width: thick;
 	border-style: thick;
 	border-color: rgb(254, 181, 136);
-	-moz-box-shadow: -10px -10px #DEAA8B;
-	-webkit-box-shadow: -10px -10px #DEAA8B;
 	box-shadow: -10px -10px #DEAA8B;
 	padding: 30px 30px 30px 30px;
 }

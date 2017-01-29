@@ -1,0 +1,17 @@
+body{
+	 overflow: auto;
+	 display: block;
+     padding-right: 14%;
+     flex-direction: row;
+}
+
+div{
+   display: block;
+   max-width: 24%;
+   max-height: 300px;
+   min-height: 300px;
+   margin-top: 2.4%;
+   margin-left: 2.4%;
+   float: left;
+}
+
