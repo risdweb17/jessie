@@ -156,10 +156,10 @@
 @media screen and (min-device-width: 320px) 
   and (max-device-width: 480px) {
   .timeline ul li div {
-    width: 80px;
+    width: 100px;
   }
   .timeline ul li:nth-child(even) div {
-    left: -128px; 
+    left: -148px; 
   }
   *{
     line-height: 110%;
