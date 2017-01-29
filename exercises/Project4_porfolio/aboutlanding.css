@@ -76,7 +76,8 @@
       text-decoration: none;
       font-size: 18px;
       color: rgb(56, 56, 56);
-      line-height: 170%
+      line-height: 170%;
+      min-height: 900px;
     }
    
     div.introduction{
