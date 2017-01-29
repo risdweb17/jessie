@@ -1,6 +1,6 @@
 
       body{
-        font-family: :"Crimson Text";
+        font-family: 'Hind Vadodara', sans-serif;
         overflow: auto;
         display: flex;
         flex-direction: column;
@@ -41,6 +41,7 @@
 
 
      div.navigation ul li a{
+         font-size: 17px;
          display:block;
          text-decoration: none;
          text-align: center;
@@ -51,26 +52,10 @@
         background-color: rgba(61, 65, 71,0.9);
         }
 
-       a.home:hover{
-        font-size: 21px; 
+     div.navigation ul li a:hover{
+      font-size: 18px; 
         color: white;
-       }
-        a.naga:hover{
-        font-size: 21px; 
-        color: white;
-       }
-        a.bestiary:hover{
-        font-size: 21px; 
-        color: white;
-       }
-        a.about:hover{
-        font-size: 21px; 
-        color: white;
-       }
-        a.narrative:hover{
-        font-size: 21px; 
-        color: white;
-       }
+     }
 
 
 
