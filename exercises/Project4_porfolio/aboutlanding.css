@@ -168,7 +168,7 @@
     font-size: 8px;
   }
   div.columns{
-      min-height: 600px;
+      max-height: 300px;
     }
 
 }
