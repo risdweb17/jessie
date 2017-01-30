@@ -109,6 +109,9 @@
       color:rgb(149, 176, 219);
     }
 
+button{
+  text-align: center ;
+}
 
    .container {
   width: 100%;
@@ -169,8 +172,15 @@
     width: 230px;
   }
   .timeline ul li:nth-child(even) div {
-    left: -289px; 
+    left: -279px; 
   }
+  div.introduction, div.education{
+    width: 100%;
+    margin: 0;
+   }
+  div.coverimage{
+          height: 300px;
+        }
 }
 
 
@@ -190,5 +200,8 @@
   	width: 100%;
   	margin: 0;
   }
-
+   div.coverimage{
+          height: 220px;
+        }
+}
    

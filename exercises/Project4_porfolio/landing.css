@@ -6,7 +6,7 @@
         flex-direction: column;
           }
 
-       h1{
+       h1,h3{
       font-family:"IM Fell English SC";
           }
      
@@ -58,7 +58,6 @@
      }
 
 
-
    div.coverimage{
     	overflow: auto;
     	display: block;
@@ -66,7 +65,7 @@
     	height: 540px;
     	background: url("coverimage.jpg") no-repeat;
     	background-size:cover;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
     div.narrativecoverimage{
@@ -112,6 +111,31 @@
     div.footer a{
       text-decoration: none;
       color:rgb(149, 176, 219);
+    }
+
+    hr{
+      margin-top: 2%;
+      clear: both;
+    }
+
+    @media screen and (max-width: 1024px) {
+    .box { 
+          height: 220px;
+        }
+    div.coverimage,div.narrativecoverimage{
+          height: 300px;
+        }
+    }
+
+
+    @media screen and (max-width: 480px) {
+      .box { 
+          height: 150px;
+        }
+        div.coverimage,div.narrativecoverimage{
+          height: 220px;
+        }
+
     }
    
   
