@@ -19,6 +19,7 @@
 
     h1, h3{
       font-family:"IM Fell English SC";
+      font-size: 19px;
     }
 
 
@@ -71,10 +72,9 @@
     div.columns{
       clear: both;
       display: block;
-      margin-left: 17%;
-      margin-top: 2%;
+      padding: 2% 2% 0% 14%;
       text-decoration: none;
-      font-size: 18px;
+      font-size: 14px;
       color: rgb(56, 56, 56);
       line-height: 170%;
 /*      min-height: 900px;*/
@@ -108,9 +108,10 @@
       color:rgb(149, 176, 219);
     }
 
-button{
-  text-align: center ;
-}
+  button{
+  text-align: center;
+  width: 100%;
+        }
 
    .container {
   width: 100%;
@@ -119,6 +120,7 @@ button{
   
   .timeline {
   	display: none;
+    padding-bottom: 20px;
   }
 
   .timeline ul li {
@@ -130,6 +132,7 @@ button{
 }
 
 .timeline ul li div {
+  font-size: 14px;
   position: relative;
   width: 400px;
   padding: 15px;
@@ -180,6 +183,12 @@ button{
   div.coverimage{
           height: 300px;
         }
+ div.columns{
+   padding: 1% 1% 0% 8%;
+ }
+ h3{
+  font-size: 16px;
+ }
 }
 
 
