@@ -111,6 +111,9 @@
       color: rgb(56, 56, 56);
       line-height: 170%;
     }
+   .text p{
+    	display: none;
+    }
 
     div.footer{
       color: rgba(0,0,0,0.4);
@@ -123,7 +126,7 @@
       color:rgb(149, 176, 219);
     }
 
-    hr{
+    #clear{
       margin-top: 2%;
       clear: both;
     }

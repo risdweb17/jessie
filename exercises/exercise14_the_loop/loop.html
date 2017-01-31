@@ -15,12 +15,22 @@
 
     <p id= "insert"></p>
 <script>
-var object=["#","##","###","####","#####","######","#######"];
+/*var object=["#","##","###","####","#####","######","#######"];
 var text="";
 for (var i =0; i< object.length; i++){
    text += object[i] + "<br>";}
    
-document.getElementById("insert").innerHTML=text;
+document.getElementById("insert").innerHTML=text;*/
+var string ="#";
+$(document).ready(function(){
+for (var i =0; i< 7; i++){
+    string = string + "#";
+    console.log(string);
+$("#insert").append(string+"<br>");
+};
+});
+
+
 
 </script>
 
