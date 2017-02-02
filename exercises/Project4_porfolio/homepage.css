@@ -88,6 +88,7 @@
      }
 
      div.navigationmobile ul li a{
+      display: none;
       font-size: 13px;
       text-decoration:none;
       color: white;
@@ -275,7 +276,8 @@
     }
       /* breakpoint meanu for mobil screen */
      div.navigation{
-    	display: none;}
+    	display: none;
+    }
 
     div.togglemenu{
      	display: block;
