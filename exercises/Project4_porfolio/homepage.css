@@ -224,32 +224,32 @@
 
     @media screen and (max-width: 1024px) {
 
-    	div.navigation ul li a{
-     	font-size: 13px;
-     }
-        div.navigation ul li a:hover{
- 	    font-size: 13.5px;
-     }
+	    	div.navigation ul li a{
+	     	font-size: 13px;
+	     }
+	        div.navigation ul li a:hover{
+	 	    font-size: 13.5px;
+	     }
 
-    div.coverimage,div.naga,div.about,div.bestiary,div.narrative{
-          height: 300px;
-        }
-        .naga h1{
-          font-size: 230%;
-        }
-        .narrative h1{
-          font-size: 280%;
-        }
-        .bestiary h1{
-          font-size: 290%;
-        }
-        .about h1{
-          font-size: 310%;
-        } 
-    img.spinner{
-      max-height: 460px;
-      animation-play-state: running; 
-    }
+	    div.coverimage,div.naga,div.about,div.bestiary,div.narrative{
+	          height: 300px;
+	        }
+	        .naga h1{
+	          font-size: 230%;
+	        }
+	        .narrative h1{
+	          font-size: 280%;
+	        }
+	        .bestiary h1{
+	          font-size: 290%;
+	        }
+	        .about h1{
+	          font-size: 310%;
+	        } 
+	    img.spinner{
+	      max-height: 460px;
+	      animation-play-state: running; 
+	    }
 
     }
 
@@ -270,18 +270,18 @@
         .about h1{
           font-size: 260%;
         }
-      img.spinner{
-      max-height: 370px;
-      animation-play-state: running; 
-    }
-      /* breakpoint meanu for mobil screen */
-     div.navigation{
-    	display: none;
-    }
+	      img.spinner{
+	      max-height: 370px;
+	      animation-play-state: running; 
+	    }
+	      /* breakpoint meanu for mobil screen */
+	     div.navigation{
+	    	display: none;
+	    }
 
-    div.togglemenu{
-     	display: block;
-     }
+	    div.togglemenu{
+	     	display: block;
+	     }
 
     }
    
