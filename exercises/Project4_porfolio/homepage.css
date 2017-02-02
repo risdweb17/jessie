@@ -253,7 +253,7 @@
     }
 
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 500px) {
        div.coverimage,div.naga,div.about,div.bestiary,div.narrative{
           height: 220px;
         }
