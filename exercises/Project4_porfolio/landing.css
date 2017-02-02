@@ -100,7 +100,7 @@
     	height: 480px;
     }
 
-    .box { margin-left: 2%;
+    .box { margin-left: 2.5%;
     	  margin-top: 5%;
           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
           float:left;
@@ -232,8 +232,19 @@
    /*end of the about page css set up*/ 
 
     @media screen and (max-width: 1024px) {
+     div.navigation ul li a{
+     	font-size: 13px;
+     }
+ div.navigation ul li a:hover{
+ 	    font-size: 13.5px;
+     }
+
+    img{
+    	height: 380px;
+    }
+
     .box { 
-          height: 220px;
+          height: 210px;
         }
     div.coverimage,div.narrativecoverimage{
           height: 300px;
@@ -266,9 +277,6 @@
 
 
     @media screen and (max-width: 480px) {
-      .box { 
-          height: 150px;
-        }
         div.coverimage,div.narrativecoverimage{
           height: 220px;
         }
@@ -278,6 +286,17 @@
         div.text{
       font-size:8px;
     }
+
+     img{
+    	height: 280px;
+    }
+
+    .box {
+    	  margin-left: 6%;
+          width: 40%;
+          height: 150px;
+      }
+
     .timeline ul li div {
     width: 100px;
   }

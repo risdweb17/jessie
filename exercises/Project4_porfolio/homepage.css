@@ -25,13 +25,13 @@
     div.navigation{
 	     background-color: #fff;  
 	     color: #c0c5ce;
-       z-index:10;
+         z-index:10;
     	 position: fixed;
     	 display: block;
-       width:100%;
+         width:100%;
     	 min-height: 60px;
     	 background-color: rgba(61, 65, 71,0.8);
-       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
      
      div.navigation ul li{
@@ -69,10 +69,12 @@
     }
 
     div.naga{
-      overflow: hidden;
-    	display: block;
-      background: url("nagabackground.jpg") no-repeat;
-      background-size:cover;
+    	z-index: 5;
+    	position: relative;
+        overflow: hidden;
+        display: block;
+        background: url("nagabackground.jpg") no-repeat;
+        background-size:cover;
     	max-height: 600px;
     	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
@@ -89,6 +91,7 @@
 
 
     img.spinner{
+      z-index: 6;
       float:right;
       max-height: 980px;
       width:auto;
@@ -107,6 +110,8 @@
     }
 
     div.narrative{
+    	z-index: 4;
+    	position: relative;
     	overflow: auto;
     	display: block;
     	height: 600px;
@@ -119,17 +124,21 @@
 
     div.narrative:hover {
     transform: scale(1.02);
+    z-index: 8;
     }
 
     div.bestiary:hover {
     transform: scale(1.02);
+    z-index: 8;
     }   
     div.naga:hover {
     transform: scale(1.02);
+    z-index: 8;
 
     }
 
     div.about:hover {
+      z-index: 8;
       transform: scale(1.02);
     }
 
@@ -140,10 +149,12 @@
     	color: white;
     	float: right;
     	margin-top: 16%;
-    	margin-right: 5%;
+    	margin-left: 5%;
     }
 
     div.bestiary{
+    	position: relative;
+    	z-index: 2;
         overflow: auto;
         display: block;
         height: 600px;
@@ -162,9 +173,11 @@
     }
 
     div.about{
-      overflow: auto;
-      display: block;
-      height: 600px;
+    	position: relative;
+    	z-index: 1;
+        overflow: auto;
+        display: block;
+        height: 600px;
     	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     	background: url("aboutcover.jpg") no-repeat;
     	background-size: cover;
