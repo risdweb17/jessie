@@ -1,0 +1,17 @@
+body{
+	background-color: rgb(124, 211, 174);
+}
+
+button{
+	
+	text-align: center;
+	font-size: 30px;
+	width: 30%;
+	height: 200px;
+	margin-left: 35%;
+	margin-top: 3%;
+	background-color: transparent;
+    color: white;
+    border: 13px solid white;
+    border-radius: 3%;
+}

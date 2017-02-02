@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- animsition.css -->
+<link rel="stylesheet" href="dist/css/animsition.min.css">
+<link rel="stylesheet" href="style.css">
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- animsition.js -->
+<script src="dist/js/animsition.min.js"></script>
+<script src="anime.min.js"></script>
+</head>
+
+<body>
+  <div class="animsition">
+    <a href="page1.html" class=  class="animsition-link"
+  data-animsition-out-class="fade-out-right"
+  data-animsition-out-duration="2000"> <button class=".move"> animsition link 1 </button></a>
+  <a href="page2.html" class="animsition-link"
+  data-animsition-out-class="overlay-slide-in-right"
+  data-animsition-out-duration="2000"> <button> animsition link 2 </button></a>
+  <a href="page3.html" class="fade-out-right"
+  data-animsition-out-class="rotate-out"
+  data-animsition-out-duration="500"> <button> animsition link 3 </button></a>
+
+
+   
+  </div>
+
+  <script>
+  $(document).ready(function() {
+  $(".animsition").animsition({
+    inClass: 'fade-in',
+    outClass: 'fade-out',
+    inDuration: 1500,
+    outDuration: 800,
+    linkElement: '.animsition-link',
+    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+    loading: true,
+    loadingParentElement: 'body', //animsition wrapper element
+    loadingClass: 'animsition-loading',
+    loadingInner: '', // e.g '<img src="loading.svg" />'
+    timeout: false,
+    timeoutCountdown: 5000,
+    onLoadEvent: true,
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    overlay : false,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
+  });
+});
+  var myAnimation = anime({
+  targets: ['.move'],
+  translateX: '13rem',
+  rotate: 180,
+  borderRadius: 8,
+  duration: 2000,
+  loop: true
+});
+  </script>
+</body>
+</html>

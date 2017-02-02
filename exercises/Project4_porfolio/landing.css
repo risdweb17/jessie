@@ -11,6 +11,11 @@
       font-size: 19px;
           }
      
+      h3{
+      	padding-top: 5%;
+      	padding-bottom: 0.5%;
+      }
+
       ul{
      	list-style: none;
      	text-shadow: 0.5px 0.5px rgba(158, 158, 158,0.5);
@@ -20,7 +25,6 @@
      li{
      	font-size: 20px;
      }
-
 
     div.navigation{
 	     background-color: #fff;  
@@ -69,6 +73,8 @@
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
+    /* different coverimages */
+
     div.narrativecoverimage{
       overflow: auto;
       display: block;
@@ -79,10 +85,23 @@
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
+    #clear{
+      margin-top: 4%;
+      clear: both;
+    }
 
+    #link{
+      text-decoration: none;
+      color:rgb(149, 176, 219);
+    }
+
+/* img in the boxes */
+    img{
+    	height: 480px;
+    }
 
     .box { margin-left: 2%;
-    	     margin-top: 5%;
+    	  margin-top: 5%;
           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
           float:left;
           overflow: hidden; 
@@ -92,16 +111,12 @@
           vertical-align: middle;
         }
 
-
-    img {
-      height: 480px;
-        }
-
      div.box:hover{
       transform: scale(1.02);
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
     }   
 
+/*comment on the gallery page, shown by toggle button*/ 
     div.text{
       clear: both;
       display: block;
@@ -111,9 +126,46 @@
       color: rgb(56, 56, 56);
       line-height: 170%;
     }
+
    .text p{
     	display: none;
     }
+/*end of the comment on the gallery page*/ 
+
+
+/*The about page css set up*/ 
+    div.columns{
+      clear: both;
+      display: block;
+      padding: 2% 2% 0% 14%;
+      text-decoration: none;
+      font-size: 14px;
+      color: rgb(56, 56, 56);
+      line-height: 170%;
+    }
+   
+    div.introduction{
+      float: left;
+      width: 33%;
+      
+    }
+
+  div.education{
+    margin-left: 6%;
+    float: left;
+    width: 33%;
+  }
+
+  /* toggle button setup */
+
+    .togglebutton{
+    	text-align: center;
+    	border: 1px solid #ccc;
+    	padding: 15px;
+    	cursor :pointer;
+    	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    }
+
 
     div.footer{
       color: rgba(0,0,0,0.4);
@@ -121,15 +173,63 @@
       text-align: center;
     }
     
-    div.footer a{
-      text-decoration: none;
-      color:rgb(149, 176, 219);
-    }
+/* timeline container*/
+   .container {
+  width: 100%;
+  text-align: center;
+}
+  
+  .timeline {
+  	display: none;
+    padding-bottom: 20px;
+  }
 
-    #clear{
-      margin-top: 2%;
-      clear: both;
-    }
+  .timeline ul li {
+  list-style-type: none;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.timeline ul li div {
+  font-size: 14px;
+  position: relative;
+  width: 400px;
+  padding: 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.timeline ul li:nth-child(odd) div:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 93%;
+   border-top: 13px solid transparent;
+   border-left: 26px solid rgb(149, 176, 219);
+   border-bottom: 13px solid transparent;
+}
+
+.timeline ul li:nth-child(even) div:before {
+   content:"";
+   position: absolute;
+   left: 100%;
+   top: 93%;
+   border-top: 13px solid transparent;
+   border-right: 26px solid rgb(90, 90, 90);
+   border-bottom: 13px solid transparent;
+}
+
+
+ .timeline ul li:nth-child(even) div {
+  left: -450px;
+}
+
+ .timeline ul li:nth-child(odd) div {
+  left: 26px;
+}
+
+   /*end of the about page css set up*/ 
 
     @media screen and (max-width: 1024px) {
     .box { 
@@ -141,7 +241,27 @@
       h3{
         font-size: 16px;
       }
+   
+     .timeline ul li div {
+    width: 230px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -279px; 
+  }
+  div.introduction, div.education{
+    width: 100%;
+    margin: 0;
+   }
 
+ div.columns{
+   padding: 1% 1% 0% 8%;
+ }
+ h3{
+  font-size: 16px;
+ }
+ .timeline ul li div {
+    font-size: 13px;
+  }
     }
 
 
@@ -158,6 +278,24 @@
         div.text{
       font-size:8px;
     }
+    .timeline ul li div {
+    width: 100px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -148px; 
+  }
+  *{
+    line-height: 110%;
+    font-size: 8px;
+  }
+  .timeline ul li div {
+    font-size: 9px;
+  }
+
+  div.introduction, div.education{
+  	width: 100%;
+  	margin: 0;
+  }
 
     }
    
