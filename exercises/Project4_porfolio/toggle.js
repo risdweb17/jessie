@@ -12,3 +12,11 @@ $(document).ready(function(){
   
 });
 
+$(document).ready(function(){
+   $(".togglemenu").click(function(){
+    $(".navigationmobile").slideToggle('slow');
+    });
+  
+});
+
+
