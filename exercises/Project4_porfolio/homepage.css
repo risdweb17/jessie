@@ -5,7 +5,7 @@
       flex-direction: column;
       }
      
-     ul{
+     .navigation ul{
      	list-style: none;
      	text-shadow: 0.5px 0.5px rgba(158, 158, 158,0.5);
      }
@@ -250,7 +250,6 @@
 	      max-height: 460px;
 	      animation-play-state: running; 
 	    }
-
     }
 
 

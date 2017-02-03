@@ -104,9 +104,20 @@
      
      /*end of the mobile menu */
 
+    /*the motifs for each page */
+
+    #motif{
+      display: block;
+      margin-left: auto;
+      margin-right: auto; /*centered */
+      height: 525px;
+      margin-top: 5px;
+      filter: drop-shadow(4px 4px 5px rgba(0,0,0,0.5));
+    }
+
 
    div.coverimage{
-    	overflow: auto;
+    	overflow: hidden;
     	display: block;
     	min-width: 100%;
     	height: 540px;
@@ -288,6 +299,11 @@
     .box { 
           height: 210px;
         }
+
+    #motif{
+      height: 300px;
+    }
+
     div.coverimage,div.narrativecoverimage{
           height: 300px;
         }
@@ -315,6 +331,11 @@
  .timeline ul li div {
     font-size: 13px;
   }
+
+  div.togglemenu{
+    display: none;
+  }
+
     }
 
 
@@ -338,6 +359,11 @@
           width: 40%;
           height: 150px;
       }
+
+      #motif{
+      height: 225px;
+      margin-top: 0px;
+    }
 
     .timeline ul li div {
     width: 100px;
