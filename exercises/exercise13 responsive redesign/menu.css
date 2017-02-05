@@ -77,8 +77,7 @@ button{
     font-size: 12px;
   }
   a:hover {
-  font-size: 13px;
-  padding: 0;
+    font-size:12px;
   }
   header{
     height: 30px;
