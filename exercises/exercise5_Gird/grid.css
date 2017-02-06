@@ -1,17 +1,24 @@
 body{
-	 overflow: auto;
-	 display: block;
-     padding-right: 14%;
-     flex-direction: row;
+	overflow: auto;
+  display: block;
+  flex-direction: column;
+  padding-right: 14%;
 }
 
 div{
    display: block;
-   max-width: 24%;
-   max-height: 300px;
-   min-height: 300px;
-   margin-top: 2.4%;
-   margin-left: 2.4%;
+   width: 24%;
+   height: 300px;
+   padding-top: 2.4%;
+   padding-left: 2.4%;
    float: left;
 }
 
+ @media screen and (max-width: 1024px) {
+   div{
+    width: 33%;
+    height: 200px;
+   }
+
+
+ }
