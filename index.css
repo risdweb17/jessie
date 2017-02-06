@@ -4,7 +4,27 @@
         display: block;
         flex-direction: column;
         text-align: center;
+        opacity: 1;
+        transition: 2s opacity;
           }
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+div.intro{
+  padding-top: 3%;
+}
+
+
+#clear{
+   clear: both;
+}
+
+#inline{
+  display:inline;
+}
 
  a{
   text-decoration: none;
@@ -26,7 +46,9 @@
   width: 32%;
   display:block; 
   margin-bottom: 10px; 
-  margin-left: 10px;} 
+  margin-left: 10px;
+} 
+
 
  #hovereffct:hover{
     background-color:rgb(255, 246, 237);
