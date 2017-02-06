@@ -101,6 +101,9 @@
       padding: 2%;
       padding-left: 7%;
      }
+
+      div.navwrap{
+  	    display: none;}
      
      /*end of the mobile menu */
 
@@ -234,6 +237,7 @@
       color: rgba(0,0,0,0.4);
       font-size: 77%;
       text-align: center;
+      padding-top: 3%;
     }
     
 /* timeline container*/
@@ -346,6 +350,9 @@
     display: none;
   }
 
+  div.navwrap{
+  	display: none;
+  }
     }
 
 
@@ -402,6 +409,10 @@
 	    div.togglemenu{
 	     	display: block;
 	     }
+
+	      div.navwrap{
+  	    display: block;
+  }
 
     }
    

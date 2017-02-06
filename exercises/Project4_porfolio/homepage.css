@@ -97,6 +97,13 @@
       padding: 2%;
       padding-left: 7%;
      }
+
+     .navigationmobile ul{
+     	list-style: none;
+     }
+
+      div.navwrap{
+  	    display: none;}
      /*end of the mobile menu */
 
     div.coverimage{
@@ -250,6 +257,15 @@
 	      max-height: 460px;
 	      animation-play-state: running; 
 	    }
+
+	    div.togglemenu{
+    display: none;
+  }
+
+  div.navwrap{
+  	display: none;
+  }
+
     }
 
 
@@ -281,6 +297,10 @@
 	    div.togglemenu{
 	     	display: block;
 	     }
+
+	      div.navwrap{
+  	    display: block;
+  }
 
     }
    
